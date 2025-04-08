@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:padding="20dp"
+    a:orientation="vertical"
+    a:gravity="center">
+
+    <TextView
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Login"
+        a:textSize="24sp"
+        a:gravity="center"
+        a:layout_marginTop="20dp"/>
+
+    <!-- Email Input -->
+    <TextView
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Email"
+        a:textSize="16sp"
+        a:layout_marginTop="20dp"/>
+
+    <EditText
+        a:id="@+id/editTextEmail"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:hint="Enter Email"
+        a:inputType="textEmailAddress"
+        a:padding="10dp"/>
+
+    <!-- Password Input -->
+    <TextView
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Password"
+        a:textSize="16sp"
+        a:layout_marginTop="20dp"/>
+
+    <EditText
+        a:id="@+id/editTextPassword"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:hint="Enter Password"
+        a:inputType="textPassword"
+        a:padding="10dp"
+        a:layout_marginTop="10dp"/>
+
+    <!-- Login Button -->
+    <Button
+        a:id="@+id/btnLogin"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Login"
+        a:padding="10dp"
+        a:layout_marginTop="20dp"/>
+</LinearLayout>
